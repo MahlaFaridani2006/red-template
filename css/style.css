@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 28px;
+}
+
+input,
+button {
+    outline: none;
+    border: 0;
+}
+
+:root {
+    --blue: #03a4ed;
+    --red: #f5283d;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    overflow-x:hidden ;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+a:hover {
+    color: var(--red);
+}
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.progress {
+    height: 0.4rem;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+}
+
+textarea {
+    outline: none;
+}
+
+/* ============================================navbar */
+nav {
+    height: 80px;
+}
+
+.nav-link {
+    margin: 0 12px;
+}
+
+.header-scrolled {
+    background-color: var(--white) !important;
+    box-shadow: 0px 6px 19px -4px rgba(0, 0, 0, 0.34);
+    position: fixed;
+    height: 80px;
+    z-index: 20;
+    transition: all 0.5s;
+}
+
+.header {
+    height: 80px;
+    background-color: #f9f9f9;
+}
+
+.brand-box {
+    width: 40%;
+    font-size: medium;
+    line-height: 70px;
+    overflow-y: hidden;
+}
+
+.navbar-collapse {
+    font-size: medium;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-link.active {
+    color: var(--red);
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link:hover {
+    color: var(--red);
+}
+
+.nav-button {
+    font-size: medium;
+    transition: all 0.5s;
+    background-color: var(--red);
+    font-size: medium;
+    margin: 0px;
+}
+
+.nav-button:hover {
+    background-color: var(--blue);
+}
+
+.navbar-brand span {
+    color: var(--blue);
+}
+
+/* =======================================home */
+.home {
+    background-image: url(../images/home-background.png);
+    background-size: cover;
+    background-position: fixed;
+
+}
+
+.home-text-box-p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.home-input-box {
+    background-color: var(--blue);
+    width: 26rem;
+    height: 3.5rem;
+    justify-content: space-between;
+}
+
+.home-input-box-input {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.5rem;
+    font-size: small;
+}
+
+.home-input-box-input::placeholder {
+    color: var(--white);
+    font-size: small;
+}
+
+.home-input-box-button {
+    background-color: var(--white);
+    height: 2.5rem;
+    padding: 0 4px;
+    font-size: smaller;
+}
+
+/* =================================================about */
+.about-bg {
+    background-image: url(../images/about-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+}
+
+.about-card {
+    background: none;
+}
+
+/* ===============================================services */
+.services-text-h {
+    line-height: 40px;
+}
+
+.services-text-p {
+    font-size: small;
+}
+
+.services-progress-p {
+    justify-content: space-between;
+}
+
+.services-first-progressbar {
+    background-color: var(--red);
+    width: 70%;
+}
+
+.services-second-progressbar {
+    background-color: var(--red);
+    width: 80%;
+}
+
+.services-third-progressbar {
+    background-color: var(--red);
+    width: 88%;
+}
+
+/* =============================================my-ability */
+.my-ability {
+    background-size: cover;
+}
+
+.my-ability-button {
+    background-color: var(--blue);
+    width: 140px;
+    transition: all 0.5s;
+}
+
+.my-ability-button:hover {
+    background-color: #0389c7;
+    transition: all 0.5s;
+}
+
+.my-ability-button:active {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.my-ability-box {
+    width: auto;
+    height: auto;
+}
+
+.my-ability-box-img {
+    width: 120px;
+    height: 110px;
+    transition: all 0.5s;
+}
+
+.my-ability-box-img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* ==============================================blog */
+.card.img-fluid {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.fa-calendar-days {
+    padding-right: 4px;
+}
+
+.blog-text-box>h3 {
+    margin-bottom: 22px;
+}
+
+.blog-card {
+    top: -100px;
+    width: 80%;
+}
+
+.blog-botton-blue {
+    background-color: var(--blue);
+    transition: all 0.5s;
+}
+
+.blog-botton-blue:hover {
+    background-color: #0389c7;
+    transition: all 0.5s;
+}
+
+.blog-card-botton {
+    position: relative;
+    top: -66px;
+}
+
+/* ============================================massage */
+.massage {
+    background-image: url(../images/contact-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.massage-form-first-input {
+    background-color: #bceaff;
+}
+
+.massage-form-first-botton {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.massage-form-first-botton:hover {
+    background-color: var(--red);
+}
+
+.massage-form-first-botton {
+    transition: all 0.5s;
+}
+
+/* ==============================================footer */
+.phone {
+    background-color: var(--white);
+    padding: 6px 10px;
+    border-radius: 50%;
+}
+
+.p-footer {
+    font-size: smaller;
+
+}
+
+/* ==========================================responsive */
+@media (max-width:1509px) {
+    .nav-link {
+        font-size: medium;
+        width: 95px;
+    }
+
+    .nav-button {
+        font-size: smaller;
+        width: 160px;
+    }
+
+    .brand-box {
+        width: 40%;
+    }
+}
+
+@media (max-width:1200px) {
+    .nav-link {
+        font-size: small;
+        width: 80px;
+        align-items: center;
+    }
+
+    .nav-item {
+        width: 80px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .nav-button {
+        font-size: small;
+        width: 140px;
+        margin-left: 15px;
+    }
+
+    .brand-box a {
+        font-size: large;
+    }
+
+    .about-p {
+        font-size: small;
+    }
+
+    .about-title {
+        font-size: medium;
+    }
+}
+
+@media (max-width:991px) {
+    .nav-link {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        background-color: var(--white);
+        border: 0.1px solid #edecec;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link:hover {
+        background-color: #f9f9f9;
+    }
+
+    .about-bg {
+        background-image: none !important;
+    }
+
+    .about-card {
+        background: linear-gradient(to right, #f84723e0, #f5283d) !important;
+        border-radius: 20px;
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .blog-img {
+        display: none;
+    }
+
+    .blog-card {
+        top: -100px;
+        width: 90% !important;
+        margin: 0 auto !important;
+    }
+
+    .card-blog {
+        border-bottom: 1px solid #dbd9d9 !important;
+    }
+}
+
+@media (max-width:989px) {
+    .home-input-box {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" dir="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahla Faridani</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/land.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <section class="g-5 z-index" x-data="{navshow:false}"
+        @scroll.window="navshow = window.scrollY > 100 ? true : false">
+        <nav id="navbar-example2" data-aos="fade-down" data-aos-delay="500"
+            class="header navbar navbar-expand-lg fixed-top" :class="{'header-scrolled':navshow}">
+            <div class="container-fluid">
+                <div class="brand-box">
+                    <a class="navbar-brand fw-bolder" href="#">SPAC<span>DYAN</span></a>
+                </div>
+
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item ">
+                            <a class="nav-link active link-danger" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger" href="#about us">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger" href="#servicess">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger" href="#my-ability">My ability</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-danger" href="#massage">masage</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-none d-lg-block ml-5">
+                        <button type="button" class="border-0 py-2 px-4 rounded-pill nav-button text-white ">Contact
+                            Now</button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+    <!-- home -->
+    <section data-aos="fade" data-aos-delay="600" id="home" class="home my-lg-5 mt-5 d-flex">
+        <div class="container">
+            <div class="row align-items-center justify-content-center my-4">
+
+                <div class="col-lg-6 col-12 mt-lg-0 mt-5 text-center text-lg-start " data-aos="fade-right"
+                    data-aos-delay="1500">
+                    <div class="home-text-box text-center text-lg-start  text-md-center">
+                        <p class="red fw-4 fs-5 mb-2">WELCOME TO SPACE DYNAMIC</p>
+                        <h1 class="fw-bold home-text-box-h1 ">We Make<span class="blue"> Digital Ideas</span> & <span
+                                class="red">SEO</span> Marketing</h1>
+                        <p class="fw-4 home-text-box-p my-3 ">Space Dynamic is a professional looking HTML template
+                            using a Bootstrap 5 (beta 2). This CSS template is free for you provided by <a
+                                href="https://templatemo.com/tag/admin" class="link-primary">TemplateMo</a>.
+                        </p>
+                        <div class="home-input-box d-flex align-items-center rounded-pill py-1 px-2 mt-4">
+
+                            <input type="url" placeholder="your website URL . . ."
+                                class="home-input-box-input rounded-pill ">
+                            <button type="submit" class=" home-input-box-button rounded-pill red">Analyze Site</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 my-4 text-center text-lg-end " data-aos="fade-left" data-aos-delay="1000">
+                    <img src="images/banner-right-image.png" alt="" class="img-fluid mt-4 home-right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section id="about us" class="about-bg my-lg-5 my-0">
+        <div class="container">
+            <div class="row my-lg-5 my-0 d-flex align-items-center justify-content-center">
+                <div data-aos="fade" data-aos-delay="500"
+                    class="col-lg-4 order-lg-0 order-3 text-center mt-lg-0 mt-md-0">
+                    <img src="images/about-left-image.png" alt="" class="img-fluid my-3 ">
+                </div>
+                <div class="col-lg-4 order-1 order-lg-2">
+
+                    <div class="about-card card text-white my-2 py-3 py-lg-0">
+                        <div class="card-body d-flex align-items-center justify-content-center" data-aos="fade"
+                            data-aos-delay="1250">
+                            <img src="images/service-icon-01.png" class="img-fluid" alt="">
+                            <div class="mx-4">
+                                <h5 class="about-title">Data Analysis</h5>
+                                <p class="about-p">Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card card text-white my-4 py-3 py-lg-0" data-aos="fade" data-aos-delay="1500">
+                        <div class="card-body d-flex align-items-center justify-content-center">
+                            <img src="images/service-icon-02.png" class="img-fluid" alt="">
+                            <div class="mx-4">
+                                <h5 class="about-title"> Web Analytics</h5>
+                                <p class="about-p">Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="about-card card text-white my-2 py-3 py-lg-0">
+                        <div class="card-body d-flex align-items-center justify-content-center" data-aos="fade"
+                            data-aos-delay="750">
+                            <img src="images/service-icon-03.png" class="img-fluid" alt="">
+                            <div class="mx-4">
+                                <h5 class="about-title"> Data Reporting</h5>
+                                <p class="about-p">Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card card text-white my-4 py-3 py-lg-0">
+                        <div class="card-body d-flex align-items-center justify-content-center" data-aos="fade"
+                            data-aos-delay="800">
+                            <img src="images/service-icon-04.png" class="img-fluid" alt="">
+                            <div class="mx-4">
+                                <h5 class="about-title">Suggestions </h5>
+                                <p class="about-p">Lorem ipsum dolor sit amet, ctetur aoi adipiscing eliter</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- servicess -->
+    <section id="servicess" class="services mb-5 mt-1 d-flex">
+        <div class="container">
+            <div class="row my-lg-5 my-0 align-items-center justify-content-center">
+                <div class="col-lg-6 my-5 text-lg-start text-center" data-aos="fade-right" data-aos-delay="600">
+                    <img src="images/services-left-image.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 mt-5 my-5" data-aos="fade-left" data-aos-delay="600">
+                    <div class="services-text">
+                        <h4 class="services-text-h fw-bolder">
+                            Grow Your Website With Our<span class="blue"> SEO </span>Service & <span
+                                class="red">Project</span> Ideas
+                        </h4>
+                        <p class="services-text-p">Space Dynamic HTML5 template is free to use for your website
+                            projects. However, you are not permitted to redistribute the template ZIP file on any CSS
+                            template collection websites. Please contact us for more information. Thank you for your
+                            kind cooperation.</p>
+                    </div>
+                    <div class="servicess-progsess-box">
+                        <div class="services-progress-p d-flex ">
+                            <h6 class="fw-bold">Website Analysis
+                            </h6>
+                            <p class="blue fw-bold">84%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar services-first-progressbar" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="servicess-progsess-box mt-4">
+                        <div class="services-progress-p d-flex ">
+                            <h6 class="fw-bold">
+                                SEO Reports
+                            </h6>
+                            <p class="blue fw-bold">88%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar services-second-progressbar" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="servicess-progsess-box mt-4">
+                        <div class="services-progress-p d-flex ">
+                            <h6 class="fw-bold">Website Analysis
+                            </h6>
+                            <p class="blue fw-bold">84%</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar services-third-progressbar" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="94"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- my ability -->
+    <section class="my-2 my-ability" id="my-ability" x-data="tabs" data-aos="fade-down" data-aos-delay="700">
+        <div class="container">
+            <div class="row text-center my-5">
+                <h4>You can <span class="red fw-bold">see</span> my <span class="fw-bold blue">ability</span></h4>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-12 text-center align-items-center justify-content-center">
+                    <template x-for="(tab, index) in tabs" :key="index">
+                        <button @click="tabName = tab.category"
+                            class="btn-box rounded-pill mx-1 text-white shadow py-2 px-2 my-ability-button mb-lg-4 mb-1"
+                            x-text="tab.display_category"></button>
+                    </template>
+                </div>
+            </div>
+
+            <template x-for="(tab, index) in tabs" :key="index">
+                <div class="row g-3 mt-5 text-center" x-show="tab.category === tabName">
+                    <template x-for="(item, index) in tab.images" :key="index">
+                        <div class="col-lg-2 col-md-4  ">
+                            <div class="my-ability-box">
+                                <img class="img-fluid my-ability-box-img" :src="item.image" alt="">
+                                <div class="info align-items-center mt-2">
+                                    <h4 x-text="item.title"></h4>
+                                    <p x-text="item.caption"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <!-- blog -->
+    <section class="blog  my-4 d-flex" id="blog" data-aos="fade-up" data-aos-delay="1000">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-lg-6 text-lg-start">
+                    <div class="blog-text-box my-5 text-lg-start text-center mx-5">
+                        <h3 class="fw-bold"> Check Out What Is <span class="blue">Trending</span> In Our Latest <span
+                                class="red">News</span></h3>
+                    </div>
+                    <div class="blog-big-img ">
+                        <img src="images/big-blog-thumb.jpg" alt="" class="img-fluid card shadow ">
+                    </div>
+
+
+
+                    <div class="card bd-light py-5 px-2  blog-card shadow mx-lg-4 ">
+                        <div class="d-flex"><small class="text-muted"><i
+                                    class="fa-regular fa-calendar-days red pr-4"></i> 24 Mar 2021</small><small
+                                class="text-muted"><i class="fa fa-users px-2 red"></i> TemplateMo</small><small
+                                class="text-muted"><i class="fa fa-folder px-2 red"></i> Branding</small></div>
+                        <h5 class="card-title mt-2">SEO Agency & Digital Marketing
+                        </h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur and sed doer ket eismod tempor
+                            incididunt ut labore et dolore magna...</p>
+
+                    </div>
+                    <div class="blog-card-botton">
+                        <button class="blog-botton-blue py-2 px-4 rounded-pill text-white mx-4" type="submit">Disciver
+                            More</button>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="text-end mb-2">
+                        <img src="images/blog-dec.png" alt="" class="img-fluid blog-img">
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row g-0 card-blog ">
+                            <div class="col-md-8">
+                                <div class="p-2">
+                                    <p class="card-text"><small class="text-muted fs-6"><i
+                                                class="fa-regular fa-calendar-days red pr-4"></i> 18 Mar 2021</small>
+                                    </p>
+                                    <h4 class="card-title fw-bolder">
+                                        New Websites & Backlinks
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <img src="images/blog-thumb-01.jpg" class="card img-fluid text-center mb-3" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card mb-3">
+                        <div class="row g-0  card-blog">
+                            <div class="col-md-8">
+                                <div class="p-2">
+                                    <p class="card-text"><small class="text-muted fs-6"><i
+                                                class="fa-regular fa-calendar-days red pr-3"></i> 06 Mar 2021</small>
+                                    </p>
+                                    <h4 class="card-title fw-bolder">
+                                        SEO Analysis & Content Ideas
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center text-lh-end">
+                                <img src="images/blog-thumb-01.jpg" class="card img-fluid mb-3" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row g-0  card-blog">
+                            <div class="col-md-8">
+                                <div class="p-2">
+                                    <p class="card-text"><small class="text-muted fs-6"><i
+                                                class="fa-regular fa-calendar-days red pr-2"></i> 14 Mar 2021</small>
+                                    </p>
+                                    <h4 class="card-title fw-bolder">
+                                        SEO Tips & Digital Marketing
+                                    </h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center text-lh-end">
+                                <img src="images/blog-thumb-01.jpg" class="card img-fluid mb-3" alt="...">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- massage -->
+    <section class="massage" id="massage">
+        <div class="container">
+            <div class="row py-5 d-flex align-items-center justify-content-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="800">
+                    <div class="massage-text my-4">
+                        <h2 class="fw-bold text-white py-2">Feel Free To Send Us A Message About Your Website Needs</h2>
+                        <p class="text-white py-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doer ket eismod tempor
+                            incididunt ut labore et dolores
+                        </p>
+                        <h5 class="text-white py-2">For any enquiry, Call Us:<span class="phone mx-2"><i
+                                    class="fa fa-phone red"></i></span><a href="#" class="fs-6 text-white">
+                                010-020-0340</a></h5>
+                    </div>
+
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="600">
+                    <div class="massage-form border px-3 py-5 card mt-4">
+                        <div class="massage-form-first d-flex">
+                            <div class="col-md-6 massage-form-first-input card  ">
+                                <input class="card py-2 massage-form-first-input px-2 " type="text" placeholder="Name">
+                            </div>
+
+                            <div class="col-md-6 card massage-form-first-input mx-2">
+                                <input class=" card py-2 massage-form-first-input px-2 " type="text"
+                                    placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="col-md-12 card">
+                            <input class=" card py-2 massage-form-first-input px-2 mt-4" type="email"
+                                placeholder="Your Email">
+                        </div>
+
+                        <div class="col-md-12 card">
+                            <textarea class=" card py-2 mt-4 massage-form-first-input px-2 mt-4" rows="5"
+                                placeholder="Massage"></textarea>
+                        </div>
+
+                        <div class="">
+                            <button type="submit"
+                                class="border-0 py-2 px-3 rounded-pill mt-5 massage-form-first-botton">Send
+                                Massage</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row text-center my-5">
+                <div class="col-lg-12 my-2">
+                    <p data-aos="zoom-in" data-aos-delay="600" class="p-footer">© Copyright 2021 Space Dynamic Co. All
+                        Rights Reserved.<br>
+                        Design : <a class="red" href="3"> Mahla Faridani</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <h class="fixed-top"></h>
+    <!-- index js -->
+    <script src="js/index.js"></script>
+    <script src="js/NF.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/land.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
